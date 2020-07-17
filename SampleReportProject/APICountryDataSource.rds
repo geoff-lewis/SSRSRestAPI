@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="APICountryDataSource">
+  <ConnectionProperties>
+    <Extension>XML</Extension>
+    <ConnectString>http://localhost:44305/api/country?type=xml</ConnectString>
+    <IntegratedSecurity>true</IntegratedSecurity>
+  </ConnectionProperties>
+  <DataSourceID>e6413b5b-433b-4721-b242-a9c39012b371</DataSourceID>
+</RptDataSource>

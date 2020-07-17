@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="APIDataSource">
+  <ConnectionProperties>
+    <Extension>XML</Extension>
+    <ConnectString>https://localhost:44305/api/sample?type=xml</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>63b11d22-9a8b-4662-ad4d-5306d4cb1c52</DataSourceID>
+</RptDataSource>
