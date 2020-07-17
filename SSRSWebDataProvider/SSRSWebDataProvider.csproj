@@ -156,6 +156,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\ContinentController.cs" />
+    <Compile Include="Controllers\CountryVisitsController.cs" />
     <Compile Include="Controllers\CountryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SampleController.cs" />
@@ -165,7 +166,18 @@
     </Compile>
     <Compile Include="Models\Continent.cs" />
     <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\CountryVisit.cs" />
+    <Compile Include="Models\DataSource.cs" />
+    <Compile Include="Models\Interfaces\IDatedItem.cs" />
     <Compile Include="Models\TestModel.cs" />
+    <Compile Include="Processing\IParameter.cs" />
+    <Compile Include="Processing\IQuery.cs" />
+    <Compile Include="Processing\ParameterProvider.cs" />
+    <Compile Include="Processing\ParameterSource.cs" />
+    <Compile Include="Processing\Parameters\DateParameter.cs" />
+    <Compile Include="Processing\Parameters\ToDateParameter.cs" />
+    <Compile Include="Processing\Parameters\FromDateParameter.cs" />
+    <Compile Include="Processing\RequestStringQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
