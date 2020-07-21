@@ -55,6 +55,8 @@
     <DataSource Include="APIDataSource.rds" />
   </ItemGroup>
   <ItemGroup>
+    <Report Include="Batches.rdl" />
+    <Report Include="BatchesByDate.rdl" />
     <Report Include="CountriesByContinent.rdl" />
     <Report Include="CountryVisitsByDate.rdl" />
     <Report Include="CountryVisitsByDateRange.rdl" />
